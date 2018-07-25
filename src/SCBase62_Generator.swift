@@ -66,7 +66,7 @@ class SCBase62Generator: SCBase62GeneratorDelegate {
     func makeb62(length len: Int) -> String {
         
         // Append random character
-        for _ in stride(from: 0, through: len, by: 1) {
+        for _ in stride(from: 0, through: len - 1, by: 1) {
             let rand_index: Int = Int(arc4random_uniform(62))
             b62string += String(b62char[rand_index])
         }
