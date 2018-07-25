@@ -25,17 +25,16 @@ for i in stride(from: 0, through: 9, by: 1) {
 This was the output:
 
 ```
-XbdlCAU
-YByudqe
-vGuRsOg
-e6PUoGk
-6ObcbyV
-NK2xhmM
-CPbGK1K
-izBZK0b
-RgHntm0
-MOpInwL
-7xlirMr
+DvKYUC
+sNqQTL
+aKxM9R
+tWnlb9
+FQQo5V
+iXwp0j
+NvUAdv
+us7tds
+2YjuOX
+VTY1FC
 ```
 
 ### Why
