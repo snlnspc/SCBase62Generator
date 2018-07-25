@@ -6,17 +6,17 @@ A quick way to create short, unique, and human readable IDs.
 let id = SCBase62Generator().makeb62(length: 6) 
 print(id) // mnJPUy1
 ```
-> You can pass a string length value (int) to the `length` parameter. 
+> You can pass a length value (int) to the `length` parameter. 
 
 If you are unsure of many characters to use, read [the explanation](#explanation) for context.
 ### Download
 Download and include [the source file](https://github.com/harmankang/SCBase62Generator/blob/master/src/SCBase62_Generator.swift) in your xcode project. It's not a very large file (at just `2.38 KB`).
 
 ### Testing the uniqueness
-I looped `SCBase62Generator` 11 times using the following code.
+I looped `SCBase62Generator` 10 times using the following code.
 
 ```swift
-for i in stride(from: 0, through: 10, by: 1) {
+for i in stride(from: 0, through: 9, by: 1) {
   // Get id 6 characters long
   let id = SCBase62Generator().makeb62(length: 6)
   print("\(id)")
