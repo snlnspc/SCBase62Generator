@@ -46,7 +46,7 @@ If you generate a 6 character random string, then there are 62<sup>6</sup> = 56,
 
 The [character set](https://github.com/harmankang/SCBase62Generator/blob/master/src/SCBase62_Generator.swift#L60) I use is alphanumerical. Including both upper and lower cases, there are 62 alphanumerical characters in the set. 
 
-Base64 encoding gives `/`'s, which is not acceptable for URL use-cases.
+I looked into Base64 encoding, but it gives `/`'s and that is not acceptable for URL use-cases.
 
 ### Warning
 
