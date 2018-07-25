@@ -4,7 +4,7 @@ A quick way to create short, unique, and human readable IDs.
 ### Use
 ```swift
 let id = SCBase62Generator().makeb62(length: 6) 
-print(id) // mnJPUy1
+print(id) // u8eLld
 ```
 > You can pass a length value (int) to the `length` parameter. 
 
