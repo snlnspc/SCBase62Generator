@@ -13,7 +13,7 @@ If you are unsure of many characters to use, read [the explanation](#explanation
 Download and include [the source file](https://github.com/harmankang/SCBase62Generator/blob/master/src/SCBase62_Generator.swift) in your xcode project. It's not a very large file (at just `2.38 KB`).
 
 ### Testing the uniqueness
-I looped `SCBase62Generator` 10 times using the following code.
+I looped `SCBase62Generator` 11 times using the following code.
 
 ```swift
 for i in stride(from: 0, through: 10, by: 1) {
